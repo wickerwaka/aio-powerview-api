@@ -31,7 +31,7 @@ setup(
     author_email='',
     description='Powerview blinds api',
     install_requires=[
-        'async_timeout',
+        'async_timeout<3',
         'aiohttp>=3,<4'
     ]
 )
